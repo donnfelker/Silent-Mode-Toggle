@@ -12,11 +12,8 @@ public final class R {
     }
     public static final class drawable {
         public static final int icon=0x7f020000;
-        public static final int phone=0x7f020001;
-        public static final int phone_on=0x7f020002;
-        public static final int phone_silent=0x7f020003;
-        public static final int phone_state_normal=0x7f020004;
-        public static final int phone_state_silent=0x7f020005;
+        public static final int phone_on=0x7f020001;
+        public static final int phone_silent=0x7f020002;
     }
     public static final class id {
         public static final int phone_icon=0x7f050000;
@@ -26,7 +23,8 @@ public final class R {
         public static final int main=0x7f030000;
     }
     public static final class string {
-        public static final int app_name=0x7f040001;
-        public static final int hello=0x7f040000;
+        public static final int app_name=0x7f040002;
+        public static final int hello=0x7f040001;
+        public static final int toggle_silent_mode=0x7f040000;
     }
 }

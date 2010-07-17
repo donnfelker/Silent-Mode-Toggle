@@ -10,13 +10,12 @@
     	android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
     	android:layout_gravity="center_horizontal"
-    	android:src="@drawable/phone" />
-	<Button 
+    	android:src="@drawable/phone_on" />
+    <Button 
 		android:id="@+id/toggleButton"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content" 
 		android:layout_gravity="center_horizontal"
-		android:text="Toggle Silent Mode"
-	/>
-		
+		android:text="@string/toggle_silent_mode"
+	/>		
 </LinearLayout>
