@@ -14,3 +14,10 @@ bin
 gen
 local.properties
 *.jar
+*.apk
+target
+gen
+bin
+*DS_Store
+*~
+*.orig
