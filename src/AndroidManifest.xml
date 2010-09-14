@@ -12,8 +12,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+		<receiver android:name=".AppWidget"
+			android:label="@string/app_name"
+			android:icon="@drawable/icon">
+			
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+			
+			<meta-data
+			android:name="android.appwidget.provider"
+			android:resource="@xml/widget_provider" />
+		</receiver>
+		<service android:name=".AppWidget$ToggleService" />
     </application>
     <uses-sdk android:minSdkVersion="4" />
-
 </manifest> 
